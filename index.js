@@ -5,10 +5,10 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 };
 
 let driver = {
-
+name: Sam;
 };
 
-const newDriver = updateDriverWithKeyAndValue(driver, 'name', 'Sam');
+const newDriver = updateDriverWithKeyAndValue(driver, 'name', 'James');
 
 function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
 
