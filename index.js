@@ -10,7 +10,7 @@ let driver = {
 
 const newDriver = updateDriverWithKeyAndValue(driver, 'name', 'James');
 
-console.log(newDriver);
+console.log('newDriver');
 
 function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
 
