@@ -8,7 +8,7 @@ let driver = {
   name: 'Sam'
 };
 
-const newDriver = updateDriverWithKeyAndValue(driver, 'name', 'James');
+let newDriver = updateDriverWithKeyAndValue(driver, 'name', 'James');
 
 console.log('newDriver');
 
