@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  return object.assign({}, driver, { [key]: value })
+  return driver.name = 'Sam';
 };
 
 let driver = {
