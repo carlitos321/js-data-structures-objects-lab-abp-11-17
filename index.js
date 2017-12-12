@@ -3,7 +3,7 @@ let driver = {
 };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  return Object.assign({}, {name: "Sam"}, {address: "12 Broadway"})
+  return Object.assign({}, {name: "Sam"}, {address: "11 Broadway"})
 };
 
 let newDriver = updateDriverWithKeyAndValue(driver, 'name', 'Sam');
