@@ -1,6 +1,5 @@
 // Write your solution in this file!
 let driver = {
-  name: 'Sam'
 };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
