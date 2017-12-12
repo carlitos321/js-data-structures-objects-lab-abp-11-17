@@ -8,7 +8,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
-  return Object.assign({}, oldDriver, driverChanges);
 
 }
 
