@@ -11,8 +11,7 @@ let newDriver = updateDriverWithKeyAndValue(driver, 'name', 'Sam');
 console.log(driver);
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  return driver.name = 'Sam';
-  return driver.address = '12 Broadway';
+  return Object.assign(driver, {name: "sam"}, {addres: "12 Broadway"})
 };
 
 function deleteFromDriverByKey(driver, key) {
