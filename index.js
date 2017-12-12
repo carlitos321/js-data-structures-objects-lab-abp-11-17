@@ -1,10 +1,21 @@
 // Write your solution in this file!
-function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
-  return Object.assign({}, oldDriver, driverChanges);
-}
-
 const driver = {
   name: 'Sam'
 };
 
-const newDriver = nondestructivelyUpdateObject(driver, 'address', '11 Broadway')
+function updateDriverWithKeyAndValue(driver, key, value) {
+
+}
+
+function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
+  return Object.assign({}, oldDriver, driverChanges);
+
+}
+
+function deleteFromDriverByKey(driver, key) {
+
+}
+
+destructivelyDeleteFromDriverByKey(driver, key) {
+
+}
