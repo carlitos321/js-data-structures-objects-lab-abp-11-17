@@ -3,16 +3,16 @@ let driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
 
-}
+};
 
 function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
 
-}
+};
 
 function deleteFromDriverByKey(driver, key) {
 
-}
+};
 
-destructivelyDeleteFromDriverByKey(driver, key) {
+function destructivelyDeleteFromDriverByKey(driver, key) {
 
-}
+};
