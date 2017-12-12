@@ -11,7 +11,7 @@ let newDriver = updateDriverWithKeyAndValue(driver, 'name', 'Sam');
 console.log(driver);
 
 function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
-
+  return driver.name = 'Sam';
 };
 
 function deleteFromDriverByKey(driver, key) {
