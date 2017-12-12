@@ -10,7 +10,7 @@ let newDriver = updateDriverWithKeyAndValue(driver, 'name', 'Sam');
 
 console.log(driver);
 
-function nondestructivelyUpdateObject(oldDriver, driverAdditions) {
+function destructivelyUpdateObject(driver, key, value) {
   return driver.name = 'Sam';
 };
 
